@@ -25,7 +25,7 @@ const MyItems = () => {
     },[products])
     return (
         <Container>
-        <h2>My products: {products.length}</h2>
+        <h2 className='p-5'>My products Quantity: {products.length}</h2>
       
        
         <Table responsive striped bordered hover variant="dark">
@@ -51,7 +51,7 @@ const MyItems = () => {
           </tbody>
           </Table>
           <Link to="/addInventoryItem">
-      <Button variant="dark" className="my-5">Add New Item</Button>
+      <Button variant="dark" className="my-5 px-4">Add New Item</Button>
  </Link>
           </Container>
     );

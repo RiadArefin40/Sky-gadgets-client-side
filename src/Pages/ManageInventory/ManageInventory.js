@@ -19,7 +19,7 @@ const ManageInventory = () => {
   }, [products]);
   return (
     <Container>
-      <h2>Manage Inventory</h2>
+      <h1 className="p-5">Manage Inventory</h1>
       
       {
           products.length===0 && <Loading></Loading>
