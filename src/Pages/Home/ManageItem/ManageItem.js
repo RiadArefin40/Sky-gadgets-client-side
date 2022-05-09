@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Button, Container, Form } from "react-bootstrap";
 import { useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
+import './ManageItem.css'
 
 const ManageItem = () => {
   const { itemId } = useParams();
@@ -58,21 +60,33 @@ const ManageItem = () => {
  }
 
   return (
-    <Container>
-      <div>
-        <h2>Manage Items id:{itemId}</h2>
+    <div>
+         <Container >
+      <div className="p-5 ">
+        <h2 className="my-3">Manage Items id:{itemId}</h2>
+        <div className="additem p-5 ">
         <img src={item.img} alt="" />
-        <p>{item.name}</p>
+        <h4>{item.name}</h4>
+        <h5>Des:{item.description}</h5>
         <p>Quantity: {item.quantity}</p>
-        <button onClick={() => handleUpdatequantity(itemId)}>Deliver</button>
+        <p>Supplier:{item.suppliername}</p>
+        <button className="btn btn-dark px-4" onClick={() => handleUpdatequantity(itemId)}>Deliver</button>
         <Form onSubmit={handleReStockItem}>
-          <Form.Label>Email address</Form.Label>
+          <Form.Label>Quantity For Restock</Form.Label>
           <br />
           <input type="number" name="quantity" id="" placeholder="Re-stock quantity" /> <br />
-          <input type="submit" value="Add" />
+          <input type="submit" className="btn btn-dark my-3 px-5" value="Add" />
         </Form>
+        </div>
+      
       </div>
+
     </Container>
+    <Link to="/manageInventory"><Button variant="dark " className="my-3">Manage Inventory</Button></Link>
+    
+    </div>
+   
+
   );
 };
 
