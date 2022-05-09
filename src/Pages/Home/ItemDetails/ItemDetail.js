@@ -3,7 +3,7 @@ import { Card, Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 
 const ItemDetail = ({ item }) => {
-  const { img, _id, name, price, quantity, description, supplierName } = item;
+  const { img, _id, name, price, quantity, description, suppliername } = item;
   const navigate = useNavigate();
   const navigateToInventory = (id) => {
     console.log("navigate");
@@ -16,16 +16,16 @@ const ItemDetail = ({ item }) => {
         <Card.Body>
           <Card.Title>{name}</Card.Title>
           <Card.Text>
-            Description: {description}
-            Price:{price} <br />
-            Quantity: {quantity}
-            {supplierName} <br />
+            Des:{description} <br />
+            Price:${price} <br />
+            Quantity: {quantity} <br />
+            Supplier:{suppliername} <br />
           </Card.Text>
         </Card.Body>
 
         <Button
           variant="dark"
-          className="w-50 mx-auto"
+          className="w-50 mx-auto my-2"
           onClick={() => navigateToInventory(_id)}
         >
           Update

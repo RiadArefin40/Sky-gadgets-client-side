@@ -85,7 +85,7 @@ const Login = () => {
           </Button>
         </div>
       </Form>
-      <p className="text-center py-3">New to Fitness-Press? <Link className="text-decoration-none" to='/register'> Please Sign Up</Link></p>
+      <p className="text-center py-3">New to Sky-Gadgets? <Link className="text-decoration-none" to='/register'> Please Sign Up</Link></p>
       <p className="text-center" >Forget password? <button  onClick={resetPassword} variant="link" className="btn  btn-link text-decoration-none">Reset-Password</button> </p>
       {errorLogin}
       <SocialLogin></SocialLogin>

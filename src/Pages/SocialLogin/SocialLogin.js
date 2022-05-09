@@ -25,7 +25,7 @@ const SocialLogin = () => {
       <div>
         <button
           onClick={handleGoogleSignIn}
-          className="btn button btn-dark w-50 d-block mx-auto my-1"
+          className="btn button btn-dark w-50 d-block mx-auto my-3"
         >
           <img style={{ height: "30px" }} alt="" />
           <span className="px-2">Google Sign-in</span>

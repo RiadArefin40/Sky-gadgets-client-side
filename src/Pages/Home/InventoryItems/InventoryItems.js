@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Button, Container, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import Loading from "../../Shared/Loading/Loading";
 import ItemDetail from "../ItemDetails/ItemDetail";
 import "./Inventory.css";
@@ -34,7 +35,9 @@ const InventoryItems = () => {
         </Row>
          
       </Container>
-      <Button variant="dark" className="my-5 px-5">Manage Inventory</Button>
+      <Link to="/manageInventory">
+      <Button variant="dark" className="my-5 px-5 p-2">Manage Inventory</Button>
+      </Link>
     </div>
   );
 };
