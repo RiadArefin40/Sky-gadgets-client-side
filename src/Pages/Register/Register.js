@@ -69,7 +69,7 @@ const Register = () => {
           </Button>
         </div>
       </Form>
-      <p className="text-center py-3">New to Fitness-Press? <Link className="text-decoration-none" to='/login'> Please Log In</Link></p>
+      <p className="text-center py-3">New to Sky-gadgets? <Link className="text-decoration-none" to='/login'> Please Log In</Link></p>
       <SocialLogin></SocialLogin>
     </div>
     );
