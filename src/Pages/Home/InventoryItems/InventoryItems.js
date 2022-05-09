@@ -34,7 +34,7 @@ const InventoryItems = () => {
         </Row>
          
       </Container>
-      <Button className="my-5 px-5">Manage Inventory</Button>
+      <Button variant="dark" className="my-5 px-5">Manage Inventory</Button>
     </div>
   );
 };
