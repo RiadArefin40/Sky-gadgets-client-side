@@ -1,8 +1,12 @@
 .location{
     background-color: rgb(221, 245, 227);
+  
 }
 .location img{
-    border-radius: 150px;
+    border-radius: 50px;
    padding: 20px;
    
+}
+.location h1 {
+    font-style: italic;
 }

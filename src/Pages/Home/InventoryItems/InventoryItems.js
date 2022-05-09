@@ -25,7 +25,7 @@ const InventoryItems = () => {
         {items.length === 0 && <Loading></Loading>}
         <Row xs={1} md={2} lg={3} className="gx-5 mx-5">
           {loading ? (
-            items.map((item) => (
+            items.slice(0,6).map((item) => (
               <ItemDetail key={item._id} item={item}></ItemDetail>
             ))
           ) : (

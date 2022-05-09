@@ -4,18 +4,20 @@ import './Location.css'
 
 const Location = () => {
   return (
-    <div className="location">
-      <h2>Location to our warehouse</h2>
-      <div className=" d-flex ">
+    <Container className="location my-5">
+      
+      <div className=" d-flex  justify-content-center align-items-center ">
       <div>
           <h1>You Are Always invited to visit us</h1>
+          <h3>You can Follow google map</h3>
         </div>
         <div>
-          <img src="https://i.ibb.co/Kx813Rb/Capture.png" alt="" />
+          <img src="https://i.ibb.co/RS32TnY/Capture-1.png" alt="" />
         </div>
         
-      </div>
+    
     </div>
+    </Container>
   );
 };
 
