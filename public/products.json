@@ -1,0 +1,62 @@
+[
+    {
+      "id": 1,
+      "name": "Balance Body Mind",
+      "price": "100",
+      "quantity":1,
+      "description": "loream djc sdjcujsw usdc",
+      "img": "https://i.ibb.co/xfDhwTY/service1.png",
+      "supplierName":"360 Tech-Point"
+    },
+  
+    {
+      "id": 2,
+      "name": "Nutrition plan",
+      "price": "200",
+      "quantity":1,
+      "description": "loream djc sdjcujsw usdc",
+      "img": "https://i.ibb.co/6BhMcf6/service2.png",
+      "supplierName":"Ryans-electronics"
+    },
+  
+    {
+      "id": 3,
+      "name": "Fitness and Performance",
+      "price": "150",
+      "quantity":1,
+      "description": "loream djc sdjcujsw usdc",
+      "img": "https://i.ibb.co/gv48hFK/service3.png",
+      "supplierName":"Star-tech electronics"
+    },
+  
+    {
+      "id": 4,
+      "name": "Routine Programme",
+      "price": "100",
+      "quantity":1,
+      "description": "loream djc sdjcujsw usdc",
+      "img": "https://i.ibb.co/BgbqRSn/service4.png",
+      "supplierName":"Gadget and gears"
+    },
+  
+    {
+      "id": 5,
+      "name": "WetLoss plan",
+      "price": "200",
+      "quantity":1,
+      "description": "loream djc sdjcujsw usdc",
+      "img": "https://i.ibb.co/3Bygthz/service5.png",
+      "supplierName":"Best gadget corner"
+    },
+  
+    {
+      "id": 6,
+      "name": "Cardiac Exercise",
+      "price": "150",
+      "quantity":1,
+      "description": "loream djc sdjcujsw usdc",
+      "img": "https://i.ibb.co/8xkL2h6/service6.png",
+      "supplierName":"Star-tech gadgets"
+    }
+  ]
+  

@@ -1,0 +1,14 @@
+.footer{
+    background-color: rgb(49, 49, 49);
+    clear: both;
+    min-height: calc(100vh - 95px); 
+  
+  
+   
+}
+.footer h2{
+    color:white;
+}
+
+
+
